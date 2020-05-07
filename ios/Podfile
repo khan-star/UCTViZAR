@@ -79,9 +79,12 @@ target 'UCTViZAR' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
-  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
 
   pod 'react-native-pdf', :path => '../node_modules/react-native-pdf'
+
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+
+  pod 'RNPDF', :path => '../node_modules/react-native-view-pdf'
 
   target 'UCTViZARTests' do
     inherit! :complete

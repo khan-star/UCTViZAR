@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Image } from 'react-native';
-import license from '../assets/images/License.jpg';
-import { Container, Content, Card, CardItem, Text, Body, Title } from 'native-base';
-export default class CardShowcaseExample extends Component {
+import { Container, Content, Card, CardItem, Text, Body } from 'native-base';
+export default class tab4 extends Component {
   render() {
     return (
       <Container>
@@ -12,10 +10,9 @@ export default class CardShowcaseExample extends Component {
               <Body>                 
               <Text>
                 {"\n"}
-                This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. It is a derivative of the Corran Face Shield of 4c Engineering & Aseptium Ltd and inspired by the Bauer Medical Face Shield. See our website for more detail. Find our open source design available here in large and small
+                The Medical Devices Lab is housed in the division of Biomedical Engineering of the Faculty of Health Sciences, University of Cape Town. The lab, built on the principles of FrugalBiodesignTM focuses on creating appropriate and affordable health technologies for unmet clinical needs which are very unique to developing countries. The design team from the lab is involved in multi-stake holder engagement at every step of the technology innovation process to ensure the translation of these technologies into the hands of the medical practitioners and patients. This multi-award winning lab has produced number of medical technologies such as reScribe, Laxmeter, PatRig, Open- Source Ptosis Crutches, Zibipen, Easysqueezy , FlexiGyn platform and now the UCT ViZARs.
                 {"\n"}
               </Text >
-              <Image source={ license } style = {{height: 100, width: 300}} />
               </Body>
             </CardItem>
           </Card>
