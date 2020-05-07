@@ -35,7 +35,7 @@ export default class tab2 extends React.Component {
           startInLoadingState={false}
           scalesPageToFit={true}
         />
-        <Text>The simple and elegant design of UCT ViZAR comprises of a shield made of transparent sheet, a foam piece that goes against the wearer’s head and an elastic band that keeps the device in place. These materials are seemingly widely available and the design is therefore easily assembled by people with appropriate skills sets or capable of following well-designed instructions. Care has been taken to ensure that a simplified manufacturing in process is required. Our ViZARs can be assembled in less than 5mins and requires no specialist skills.</Text>
+        <Text>The UCT ViZAR has a simple yet elegant design that comprises of a shield made of transparent sheet, a foam piece that goes against the wearer’s head and an elastic band that keeps the design in place. Care has been taken to ensure that the chosen materials are widely available and that the manufacturing process is simplified to ensure that our ViZARs can be easily assembled in less than 5 minutes and requires no specialist skills.</Text>
       </View>
     );
   }
